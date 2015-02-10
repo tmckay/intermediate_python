@@ -1,5 +1,13 @@
 """
 Debug a script using pdb
+
+Create a breakpoint by doing:
+
+    import pdb; pdb.set_trace()
+
+Once in the debugger, press "n" to go to the next line.
+Press "s" to step into a function and press "c" to continue
+to the next breakpoint.
 """
 
 def is_palindrome(s):
