@@ -1,5 +1,5 @@
 """
-Debug a script using pdb
+Debug this script using pdb (Python DeBugger) 
 
 Create a breakpoint by doing:
 
@@ -11,7 +11,6 @@ to the next breakpoint.
 """
 
 def is_palindrome(s):
-    s = s.replace(' ', '').lower()
     l = len(s)
     for i in range(l/2):
         if s[i] != s[l-1-i]:
